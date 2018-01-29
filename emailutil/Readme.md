@@ -1,6 +1,11 @@
-Sample Usage without attachment
+# emailutil
 
-import emailutil.emailgmail as em
+### Sample Usage without attachment
 
+`import emailutil.emailgmail as em
+em.sendEmail('XXXXX@XXXXX.XXXXX','XXXXXXXXXXX','XXXXXXXXXX','Test Subject','Test Message')`
 
-em.sendEmail('XXXXX@XXXXX.XXXXX','XXXXXXXXXXX','XXXXXXXXXX','Test Subject','Test Message')
+### Sample Usage with attachment
+
+`import emailutil.emailgmail as em
+em.sendEmail('XXXXX@XXXXX.XXXXX','XXXXXXXXXXX','XXXXXXXXXX','Test Subject','Test Message')`
