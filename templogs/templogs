@@ -1,2 +1,3 @@
-cd /home/pi/templogs
+BASEDIR=$(dirname "$0")
+cd $BASEDIR
 python temp_log.py
